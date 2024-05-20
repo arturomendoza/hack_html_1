@@ -1,0 +1,55 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    background: none;
+    height: auto;
+}
+
+.containerblue1 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #93B5C9;
+}
+
+.conteinerwine1 {
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #AB2849;
+    z-index: -1;
+}
+
+.conteinerwine2 {
+    position:relative;
+    width: 80%;
+    height: 200px;
+    margin: 2% 20% 0 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #AB2849;
+    z-index: -1;
+}
+
+.conteinerwine3 {
+    position:relative;
+    width: 96%;
+    height: 200px;
+    margin: 2% 0 0 2%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #AB2849;
+    z-index: -1;
+}

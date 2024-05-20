@@ -1,0 +1,95 @@
+:root{
+    --bg-dorado: #B88940;
+    --bg-amarillo: #FFBD59;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.line {
+    margin: 4% auto 2% auto;
+    background: black;
+    height: 8px;
+    width: 6%;
+    border-radius: 8px;
+}
+
+.end {
+    font-size: 50px;
+    font-family: "Ruda", sans-serif;
+    letter-spacing: 10px;
+}
+
+.sale {
+    font-size: 250px;
+    color: #B88940;
+    font-family: "Ruda", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 40px;
+}
+ 
+.off {
+    font-size: 120px;
+    font-family: "Ruda", sans-serif;
+
+}
+
+.text1 {
+    font-size: 40px;
+    margin: 2% auto 10% auto;
+    font-family:"Catamaran", sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.line1, .line2, .line3, .line4 {
+    background-color: #FFBD59;
+    display: flex;
+    position: relative;
+    width: 95%;
+    height: 80px;
+    margin: 1% auto;
+}
+
+.images {
+    position:relative;
+    display: flex;
+    bottom: 600px;
+    height: 450px;
+    gap: 25px;
+    width: 60%;
+}
+
+.conteinerbottom {
+    position: relative;
+    display: flex;
+    bottom: 350px;
+    font-size: 40px;
+    font-family:"Catamaran", sans-serif;
+    font-weight: 700;
+    gap: 300px;
+}
+
+.cbottom1 {
+    font-size: 60px;
+    color: #B88940;
+    margin: 3% auto 0;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 10px;
+}
+
+.cbottom2 {
+    font-size: 40px;
+    margin: 0 auto 3%;
+    font-family:"Catamaran", sans-serif;
+    font-weight: 700;
+}

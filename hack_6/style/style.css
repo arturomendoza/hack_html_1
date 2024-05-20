@@ -1,0 +1,148 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}
+
+.main-banner{
+    background-image: url('https://myawsarturo.s3.amazonaws.com/hackhtml1/hackhtml1_6/main-banner.png');
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-size: auto;
+}
+
+* {
+    box-sizing: border-box;
+  }
+.column {
+    float: left; 
+    height: 450px; 
+}
+
+.left{
+    width: 60%;
+    padding: 2% 15% 3% 10%;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blackname{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 35%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.tittle{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.circle {
+    background-color: #00BF63;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding: 5%;
+  }
+
+  .items {
+    float: left;
+    width: 33.33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 5% 0 0% 0%;
+    padding: 0% 5% 0 5%;
+  }
+  
+  .items img{
+    width: 90%;
+    margin-bottom: 5%;
+ 
+  }
+
+.itemname{
+    text-align: left; 
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+  /* Clear floats after the columns */
+  .rowitems:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.prices{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    float: left;
+}
+#p1{
+    margin-right: 15px;	
+    text-decoration: line-through #f00 3px;
+    font-size: 20px;
+}
+
+#p2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.shopnow{
+  background-color: #00BF63;
+  color: white;
+  width: 15%;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
